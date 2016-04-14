@@ -19,10 +19,10 @@ public class Main {
         System.out.println(operator);
 
         System.out.println("Please enter another number.");
-        int num2 = input.nextInt();
+        double num2 = input.nextInt();
         System.out.println(num2);
 
-        int result;
+        double result;
 
         if ("+".equals(operator)){
             result = num1 + num2;
