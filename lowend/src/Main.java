@@ -8,7 +8,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Welcome to Low-End Calculator!");
-
+while(true){
         System.out.println("Please enter a number.");
         int num1 = input.nextInt();
         System.out.println(num1);
@@ -24,24 +24,20 @@ public class Main {
 
         double result;
 
-        if ("+".equals(operator)){
+        if ("+".equals(operator)) {
             result = num1 + num2;
-        }
-        else if("-".equals(operator)){
+        } else if ("-".equals(operator)) {
             result = num1 - num2;
-        }
-        else if("*".equals(operator)){
+        } else if ("*".equals(operator)) {
             result = num1 * num2;
-        }
-        else if("/".equals(operator)) {
+        } else if ("/".equals(operator)) {
             result = num1 / num2;
-        }
-        else {
+        } else {
             result = -99999; // TODO: Fix this shit
         }
 
         System.out.println("The result is: " + result);
-
+    }
 
     }
 }
